@@ -1,0 +1,111 @@
+@media screen and  (max-width : 700px) {
+    .blogPost {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blogStyle1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(0,0,0,0.1);
+    }
+    
+     /* .blogStyle1 img {
+        width: 20%;
+        height: auto;
+    }  */
+    
+    .blogStyle1Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
+        text-align: justify;
+        line-height: 1.5;
+        padding: 3.5rem;
+    }
+    
+    .blogStyle1Content h5 {
+        font-weight: bold;
+    }
+    
+    .blogStyle1Content p {
+        color: rgba(0,0,0,0.7);
+    }
+
+    .blogStyle2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(0,0,0,0.1);
+    }
+    
+     /* .blogStyle1 img {
+        width: 20%;
+        height: auto;
+    }  */
+    
+    .blogStyle2Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
+        text-align: justify;
+        line-height: 1.5;
+        padding: 3.5rem;
+    }
+    
+    .blogStyle2Content h5 {
+        font-weight: bold;
+    }
+    
+    .blogStyle2Content p {
+        color: rgba(0,0,0,0.7);
+    }
+
+    .blogStyle3 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgba(0,0,0,0.1);
+    }
+    
+     /* .blogStyle1 img {
+        width: 20%;
+        height: auto;
+    }  */
+    
+    .blogStyle3Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
+        text-align: justify;
+        line-height: 1.5;
+        padding: 3.5rem;
+    }
+    
+    .blogStyle3Content h5 {
+        font-weight: bold;
+    }
+    
+    .blogStyle3Content p {
+        color: rgba(0,0,0,0.7);
+    }
+}

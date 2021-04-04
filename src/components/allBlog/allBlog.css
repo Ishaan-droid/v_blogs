@@ -1,0 +1,40 @@
+.colStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
+}
+
+.colStyle img {
+    height: 25rem;
+    float: left;
+    margin: 1rem;
+}
+
+.colStyle h3 {
+    margin: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.colStyle h3:hover {
+    color : rgba(187, 90, 58, 1);
+}
+
+.colStyle p {
+    margin-top: 9rem;
+    margin-left: 9rem;
+    margin-right: 1rem;
+    text-align: justify;
+    color: rgba(0,0,0,0.7);
+}
+
+.colStyle p:hover {
+    color : rgba(187, 90, 58, 1);
+}

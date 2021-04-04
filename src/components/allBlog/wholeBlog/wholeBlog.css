@@ -1,0 +1,23 @@
+.blogStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal playfairdisplay-bold,'playfair display',serif;
+    line-height: 150%;
+}
+
+.blogStyle img{
+    height: 35rem;
+}
+
+.blogStyle h4 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.blogStyle p {
+    font-size: 1rem;
+    text-align: justify;
+}

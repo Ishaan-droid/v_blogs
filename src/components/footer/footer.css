@@ -1,0 +1,94 @@
+footer {
+    margin-top: 1rem;
+    background-color: #f7d1ba;
+    padding: 3rem;
+}
+
+footer h1 {
+    text-align: center;
+    font: normal normal normal 3rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstRowStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.firstRowStyle input {
+    /* margin: 1rem 3rem 0rem 1rem; */
+    border-radius: 0%;
+    font: normal normal normal 1.5rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    border-width: 0px 0px 2px 0px;
+    background-color: transparent;
+    box-sizing: border-box !important;
+    color: black;
+    border-style: solid;
+    border-color: rgb(58, 56, 56);
+    padding: 3px;
+    outline: none;
+}
+
+.firstRowStyle input::placeholder {
+    color: rgb(58, 56, 56);;
+}
+
+.secondRowStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.secondRowStyle input {
+    /* margin: 1rem 3rem 0rem 1rem; */
+    border-radius: 0%;
+    font: normal normal normal 1.5rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    border-width: 0px 0px 2px 0px;
+    background-color: transparent;
+    box-sizing: border-box !important;
+    color: black;
+    border-style: solid;
+    border-color: rgb(58, 56, 56);
+    padding: 3px;
+    outline: none;
+}
+
+.secondRowStyle input::placeholder {
+    color: rgb(58, 56, 56);;
+}
+
+.thirdRowStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.thirdRowStyle button {
+    border: solid rgba(187, 90, 58, 1) 0px;
+    cursor: pointer !important;
+    text-align: center;
+    color : white;
+    background-color: rgba(187, 90, 58, 1);
+    width: 100%;
+    height: 2.5rem;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    font: normal normal normal 1.5rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    border-radius: 5%;
+}
+
+.thirdRowStyle button:hover {
+    background-color: black;
+    color: white;
+}

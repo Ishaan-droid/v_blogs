@@ -1,0 +1,25 @@
+.imageStyle {
+    padding: 0rem;
+}
+
+.card1Style, .card3Style {
+    height: 40rem;
+}
+
+.card2Style {
+    height: 35rem;
+}
+
+h1 {
+    color: #000000;
+    font: normal normal normal 3rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+@media screen and  (max-width : 750px) {
+    .card1Style, .card3Style {
+        display: none !important;
+    }
+}

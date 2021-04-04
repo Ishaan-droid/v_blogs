@@ -1,0 +1,32 @@
+.aboutStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutStyle h1 {
+    text-align: center;
+}
+
+.aboutStyle p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 1rem;
+}
+
+.aboutStyle button {
+    border: solid rgba(187, 90, 58, 1) 0px;
+    cursor: pointer !important;
+    text-align: center;
+    color : white;
+    background-color: rgba(187, 90, 58, 1);
+    margin: 1rem;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    font: normal normal normal 1.5rem/1.4em playfairdisplay-bold,'playfair display',serif;
+    border-radius: 5%;
+}
+
+.aboutStyle button:hover {
+    background-color: black;
+    color: white;
+}
