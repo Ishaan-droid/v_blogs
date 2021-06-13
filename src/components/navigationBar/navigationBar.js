@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar,Nav,NavItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -20,34 +20,43 @@ a, .navbar-nav .nav-link,p {
     transition : color 0.4s ease 0s;
     }
 }
-}`
+}`;
 
 const NavigationBar = () => {
-    return (
-        <Styles>
-        <Navbar expand="lg">
-        <Link to="/" className="d-inline-block align-top navbar">V Blogs</Link>
+  return (
+    <Styles>
+      <Navbar expand="lg">
+        <Link to="/" className="d-inline-block align-top navbar">
+          V Blogs
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <NavItem>
-             <Link to='/' className="nav-link">Home</Link>
-          </NavItem>
-          <NavItem>
-            <Link to='/blog' className="nav-link">My Blog</Link>
-          </NavItem>
-          <NavItem>
-            <Link to='/aboutMe' className="nav-link">About</Link>
-          </NavItem>
-          <NavItem>
-             <Link to='/contact' className="nav-link">Contact</Link>
-          </NavItem>
-
+            <NavItem>
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/blog" className="nav-link">
+                My Blog
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/aboutMe" className="nav-link">
+                About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <a href="#vaishantCopyright" className="nav-link">
+                Contact
+              </a>
+            </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      </Styles>
-    )
+    </Styles>
+  );
 };
 
 export default NavigationBar;

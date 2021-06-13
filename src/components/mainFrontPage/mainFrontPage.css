@@ -1,20 +1,39 @@
 /* Styling Blog Post */
 
 .blogPost {
-    display: flex;
-    flex-direction: column;
-    /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 478px;
+}
+
+.linkStyle:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .blogStyle1 {
-    display: flex;
-    flex-direction: row;
-    width: 30rem;
-    height: 21rem;
-    margin-top: 1rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  height: 21rem;
+  margin-top: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.blogStyle1:hover {
+  transform: scale(1.05);
+  transition: 1.2s;
+  color: rgba(187, 90, 58, 1);
 }
 
 /* .blogStyle1 img {
@@ -23,33 +42,40 @@
 } */
 
 .blogStyle1Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    text-align: justify;
-    line-height: 1.5;
-    padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 1rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 3.5rem;
 }
 
 .blogStyle1Content h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blogStyle1Content p {
-    color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .blogStyle2 {
-    display: flex;
-    flex-direction: row;
-    width: 30rem;
-    height: 21rem;
-    margin-top: 1rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  height: 21rem;
+  margin-top: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.blogStyle2:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+  color: rgba(187, 90, 58, 1);
 }
 
 /* .blogStyle2 img {
@@ -58,33 +84,40 @@
 } */
 
 .blogStyle2Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    text-align: justify;
-    line-height: 1.5;
-    padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 1rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 3.5rem;
 }
 
 .blogStyle2Content h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blogStyle2Content p {
-    color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .blogStyle3 {
-    display: flex;
-    flex-direction: row;
-    width: 30rem;
-    height: 21rem;
-    margin-top: 1rem;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  height: 21rem;
+  margin-top: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.blogStyle3:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+  color: rgba(187, 90, 58, 1);
 }
 
 /* .blogStyle3 img {
@@ -93,118 +126,118 @@
 } */
 
 .blogStyle3Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    text-align: justify;
-    line-height: 1.5;
-    padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font: normal normal normal 1rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 3.5rem;
 }
 
 .blogStyle3Content h5 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blogStyle3Content p {
-    color: rgba(0,0,0,0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /*Styling AboutMe */
 
 .aboutMe {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(187, 90, 58, 1);
-    width: 100%;
-    height: 30rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(187, 90, 58, 1);
+  width: 100%;
+  height: 30rem;
 }
 
 .aboutMe h3 {
-    color : white;
-    font: normal normal normal 2rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    font-weight: bold;
-    text-align: center;
+  color: white;
+  font: normal normal normal 2rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .aboutMe p {
-    color: white;
-    padding: 2rem;
-    line-height: 1.5;
-    font-size: 1rem;
-    text-align: justify;
+  color: white;
+  padding: 2rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 .aboutMe button {
-    background-color: rgba(255, 255, 255, 1);
-    border: solid rgba(187, 90, 58, 1) 0px;
-    cursor: pointer !important;
-    text-align: center;
-    color : rgba(187, 90, 58, 1);
-    width: 100%;
-    height: 2.5rem;
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  background-color: rgba(255, 255, 255, 1);
+  border: solid rgba(187, 90, 58, 1) 0px;
+  cursor: pointer !important;
+  text-align: center;
+  color: rgba(187, 90, 58, 1);
+  width: 100%;
+  height: 2.5rem;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
 
 .aboutMe button:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 /* Styling newsLetter */
 
 .newsletterUpdate {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 30rem;
-    background-color: rgba(187, 90, 58, 1);
-    padding: 1rem;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 30rem;
+  background-color: rgba(187, 90, 58, 1);
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .newsletterUpdate h4 {
-    color : white;
-    font: normal normal normal 2rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    font-weight: bold;
-    text-align: center;
+  color: white;
+  font: normal normal normal 2rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  font-weight: bold;
+  text-align: center;
 }
 
 .newsletterUpdate input {
-    border-radius: 0%;
-    font: normal normal normal 1rem/1.4em playfairdisplay-bold,'playfair display',serif;
-    border-width: 0px 0px 2px 0px;
-    background-color: transparent;
-    box-sizing: border-box !important;
-    color: #FFFFFF;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 1);
-    padding: 3px;
-    outline: none;
+  border-radius: 0%;
+  font: normal normal normal 1rem/1.4em playfairdisplay-bold, 'playfair display', serif;
+  border-width: 0px 0px 2px 0px;
+  background-color: transparent;
+  box-sizing: border-box !important;
+  color: #ffffff;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 1);
+  padding: 3px;
+  outline: none;
 }
 
 .newsletterUpdate input::placeholder {
-    color: white;
+  color: white;
 }
 
 .newsletterUpdate button {
-    background-color: rgba(255, 255, 255, 1);
-    border: solid rgba(187, 90, 58, 1) 0px;
-    cursor: pointer !important;
-    text-align: center;
-    color : rgba(187, 90, 58, 1);
-    width: 50%;
-    height: 2.5rem;
-    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  background-color: rgba(255, 255, 255, 1);
+  border: solid rgba(187, 90, 58, 1) 0px;
+  cursor: pointer !important;
+  text-align: center;
+  color: rgba(187, 90, 58, 1);
+  width: 50%;
+  height: 2.5rem;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
 
 .newsletterUpdate button:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
